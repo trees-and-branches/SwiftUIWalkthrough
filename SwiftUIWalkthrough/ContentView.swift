@@ -15,7 +15,7 @@ enum Sport: String {
 struct ContentView1: View {
     let buttonSize: CGFloat = 100
     
-    @State var sport: Sport = .nothing
+    @State var sport: Sport  = .nothing
     @State var submitToggle = false
     
     var body: some View {
@@ -101,8 +101,10 @@ struct ContentView1: View {
 
 
 #Preview {
-    ContentView1()
+        ContentView1()
 }
+
+
 //
 //struct ContentView: View {
 //    var body: some View {
